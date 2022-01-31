@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.img {
+  align-self: start;
+  margin: .5rem 0 0 1.2rem;
+  width: 85px;
+  height: 85px;
+}
+
+.location {
+  align-self: start;
+  margin-left: 7px;
+  font-weight: 600;
+}
+
+.sub {
+  position: relative;
+  bottom: 10px;
+  align-self: start;
+  margin-left: 30px;
+}
+
+.temperature {
+  display: inline-flex;
+  align-self: start;
+}
+
+.celsius {
+  position: relative;
+  top: 15px;
+  font-size: 20px;
+}
+
+.text {
+  align-self: flex-end;
+}
+
+.rightInfo {
+  position: relative;
+  bottom: 89px;
+  text-align: center;
+  align-self: end;
+  font-size: 12px;
+  margin-right: 1rem;
+}
+
+.rainIcon {
+  margin-right: 6px;
+  font-size: 16px;
+}
+
+.error, .search {
+  text-align: center;
+  color: rgb(34, 36, 36);
+}
+
+
+@media (min-width: 400px) {
+  .rightInfo {
+    font-size: 14px;
+    margin-right: 1.8rem;
+  }
+}

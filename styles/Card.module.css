@@ -1,0 +1,20 @@
+.card {
+  display: -moz-box;
+  display: flex;
+  min-width: 300px;
+  max-width: 425px;
+  width: -webkit-fill-available;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(48, 48, 48);
+   margin: 1.5rem; 
+  border-radius: 18px;
+  align-content: center;
+}
+
+@media (min-width: 768px) {
+  .card {
+    display: none;
+  }
+}

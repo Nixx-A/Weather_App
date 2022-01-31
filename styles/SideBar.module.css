@@ -1,0 +1,71 @@
+.sidebar {
+  height: 100%;
+  width: 25%;
+  position: absolute;
+  visibility: hidden;
+  left: 0;
+  top: 0;
+  padding-top: 20px;
+  color: #fff;
+  background: rgb(48, 48, 48);
+  }
+
+.icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem .3rem 0 0 ;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 100px; 
+  height: 100px
+}
+
+.temperature {
+  font-size: 27px
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 600;
+}
+.weatherSidebar {
+  display: flex;
+  height: 25%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.data {
+  margin-left: 35px;
+  font-size: 16px;
+}
+
+.location {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+}
+
+.autor {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 280px;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    visibility: visible;
+  }
+}

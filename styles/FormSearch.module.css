@@ -1,0 +1,44 @@
+.formSearch {
+display: flex;
+  justify-content: center;
+  justify-content: center;
+  height: 100px;
+  
+}
+.input {
+  width: 24rem;
+  height: 30px;
+  margin-left: 2rem;
+  border-radius: 20px;
+}
+
+.delete {
+  display: inline-flex;
+  position: relative;
+  left: 410px;
+  top: -28px;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search {
+  position: relative;
+  top: 5px;
+  left: 30px;
+  width: 18px;
+  height: 18px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .input {
+    width: 15rem;
+  }
+
+  .delete {
+    left: 265px;
+  }
+}
