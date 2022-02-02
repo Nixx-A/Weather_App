@@ -26,7 +26,7 @@ export const StateContextProvider = ({children}) => {
           "method": "GET",
           "headers": {
             "x-rapidapi-host": "weatherapi-com.p.rapidapi.com",
-            "x-rapidapi-key": process.env.API_KEY,
+            "x-rapidapi-key": process.env.KEY,
           }
         })
         setIsData(true)
