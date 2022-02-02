@@ -1,5 +1,4 @@
       export const daysWeather = (data) => {
-        console.log(data)
       const nextDaysWeather = [{
         date: data?.forecast?.forecastday[0]?.date,
         icon: data?.forecast?.forecastday[0]?.day?.condition?.icon,
